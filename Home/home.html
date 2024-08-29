@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatcHGoods</title>
+    <link rel="stylesheet" href="../Home/home.css">
+    <script src="https://kit.fontawesome.com/a67de8ae3e.js" crossorigin="anonymous"></script>
+    <script src="../Home/home.js"></script>
+</head>
+
+<body>
+    <nav class="header">
+        <div>
+            <img class = "logo" src="../Home/logo.png"/>
+        </div>
+
+        <ul class="navigator">
+            <li class="itemList">
+                <a href="../Home/home.html">Home</a>
+            </li>
+
+            <li class="itemList">
+                <a href="../products/casio/casio.html">Products</a>
+            </li>
+
+            <li class="itemList">
+                <a href="../aboutus/aboutus.html">About Us</a>
+            </li>
+
+            <li class="itemList">
+                <a href="../locations/locations.html">Locations</a>
+            </li>
+
+            <li class="itemList">
+                <a href="../contactus/contactUs.html">Contact Us</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <div class="banner">
+        <div class="slides">
+            <input type="radio" name="radioButton" id="radio1">
+            <input type="radio" name="radioButton" id="radio2">
+            <input type="radio" name="radioButton" id="radio3">
+
+            <div class="slide first">
+                <img src="../Home/banner1.jpg">
+            </div>
+            <div class="slide">
+                <img src="../Home/banner2.jpg">
+            </div>
+            <div class="slide">
+                <img src="../Home/banner3.jpg">
+            </div>
+
+            <div class="autoBanner">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+        <div class="manualBanner">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+
+    <section class ="background">
+        <div class ="content">
+            <h1 class="wBrand">Watch Brand</h1>
+            <div class="brands">
+                <img src="../Home/casio.png" onclick="openBrand(1)">
+                <img src="../Home/seiko.png" onclick="openBrand(2)">
+                <img src="../Home/jeep.png" onclick="openBrand(3)">
+                <img src="../Home/fossil.png" onclick="openBrand(4)">
+                <img src="../Home/gshock.png" onclick="openBrand(5)">
+            </div>
+
+            <h1 class="newArrivalText">New Arrival</h1>
+            <div class="newArrival">
+                <img src="../Home/NewArrival.jpg">
+            </div>
+
+            <div class="attribut">
+                <h1>Our quality</h1>
+                <h2>We pride ourselves on offering high-quality timepieces that are crafted with precision and attention to detail. From luxury brands to stylish and affordable options, our diverse collection ensures there's a watch for every style and preference. With our knowledgeable staff, you can confidently invest in a timepiece that combines elegance and durability.</h2>
+
+                <h1>Our service</h1>
+                <h2>We prioritize providing exceptional service to our valued customers. From the moment you step through our doors or visit our website, our friendly and knowledgeable staff is dedicated to assisting you with all your watch-related needs. Whether you need help selecting the perfect timepiece, adjusting the strap for a comfortable fit, or servicing your watch for optimal performance, we are here to ensure your satisfaction. We believe in building long-lasting relationships with our customers, and our commitment to exceptional service extends beyond the point of purchase. With our reliable after-sales support, you can trust that we'll be there to address any concerns or inquiries you may have.</h2>
+
+                <h1>Our Authenticity</h1>
+                <h2>We guarantee that all the watches available at our store are genuine and authentic. We understand the importance of trust and transparency, which is why we source our watches directly from authorized distributors and reputable suppliers. Each timepiece goes through a rigorous authentication process to ensure its legitimacy, so you can shop with confidence knowing that you are purchasing a genuine product. We stand behind the authenticity of our watches and strive to maintain the highest standards of quality and integrity in our selection.</h2>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contactUs">
+            <button class="buttonContact">
+                <a href="../contactus/contactUs.html">Contact Us<a>
+            </button>
+        </div>
+        
+        <div class="footer">
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            
+            <p class="textFooter">Copyright © 2023 WatcHGoods. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
